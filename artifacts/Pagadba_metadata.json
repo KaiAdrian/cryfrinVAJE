@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pliskoti",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"igrackanjeDva.sol": "Pagadba"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"igrackanjeDva.sol": {
+			"keccak256": "0xe9b2789a647980dd0b05b3fcc788c115ac6f026d9918b3b476e35b48345cf6b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9500ecc882137d7bbf24183288476682661a238e4a57c06d908c4b1d4faa07fa",
+				"dweb:/ipfs/Qmc9gN7Bmmm6pDgmvU7bUzkvEMBpMTyff3Z7GNoSmZZcj2"
+			]
+		}
+	},
+	"version": 1
+}
