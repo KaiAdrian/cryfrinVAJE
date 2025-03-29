@@ -4,7 +4,71 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "indeks",
+						"type": "uint256"
+					}
+				],
+				"name": "getPliskoByIndex",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pliskoti",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "ime",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "starost",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "vZvezi",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +97,11 @@
 	},
 	"sources": {
 		"igrackanjeDva.sol": {
-			"keccak256": "0xc42d60b3a0c6fd26b0eac13dd8472396a8460d559cf1ae2a2dd8c352efef7eb7",
+			"keccak256": "0x31839ea9abae6ba3921344e26bf4bbcabf2c55b5998170dc920c7a7abe63d120",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://52175c4d23f601fa73aad0ad7b97a73c11606d6639e4ee24c689a02e65999c82",
-				"dweb:/ipfs/QmPjgjL29RYtp7xvJK64BB3yaGLya5r1eQwfivZ1hWuufY"
+				"bzz-raw://4260c4e9eb25c957d0632f084c5cd4ef724353806347b11638817754d4c9ff6d",
+				"dweb:/ipfs/QmUWagJDCw4bT3hDo5KxEgVwjSyiEDJZvepcujaasgz1AY"
 			]
 		}
 	},
