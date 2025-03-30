@@ -40,8 +40,23 @@ contract Pagadba {
       Plisko memory plisko = pliskoti[indeks];
       return (plisko.ime, plisko.starost , plisko.vZvezi);
     }
-    
+    function getPliskoByName(string memory _ime) public view returns (string memory, uint256, bool) {
+      for (uint256 i = 0; i < pliskoti.length; i++) {
+         if (keccak256(abi.encodePacked(pliskoti[i].ime)) == keccak256(abi.encodePacked(_ime))) {
+                return (pliskoti[i].ime, pliskoti[i].starost, pliskoti[i].vZvezi);
+            }
+        }
+        revert("Plisko s tem imenom ni najden");
+    }
 
+   // 🔹 Doda novega Plisko v array
+    function pliskoAdd(string memory _ime,uint256 _starost,bool _vZvezi  ) public {
+       require(bytes(_ime).length > 0, "Ime mora biti podano med narekovaji in ne sme biti prazno");
+       require(_starost > 0, "Starost mora biti pozitivno stevilo");
+       pliskoti.push(Plisko(_ime,_starost,_vZvezi));
+
+  
+   }  
    // function getPlisko()  public returns (string memory,uint256,bool){
    //    return (_plisko.ime,_plisko.starost,_plisko.vZvezi);
    // }
