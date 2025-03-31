@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "donatorji",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "donator",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "vsota",
+						"type": "uint256"
+					}
+				],
+				"name": "donatorjiAdd",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "donatorji",
+						"type": "string"
+					}
+				],
+				"name": "prispevali",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "cifra",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "useMemoryCallData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "donator",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cifra",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StorageMemoryCalldata.sol": "PagadbaII"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StorageMemoryCalldata.sol": {
+			"keccak256": "0x2597b472bcf9e0725ad3b72814d6cdce4c809337ae410ea712cb6c6257332c9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3cfacd68fea5eb075774fc148d73cb54d10b7bf0c1dfdb0c15800d58d199f72",
+				"dweb:/ipfs/QmSvZviaMWmctaWss4tgy3Vv56dyWcRLo728sMUQQYkcWd"
+			]
+		}
+	},
+	"version": 1
+}
