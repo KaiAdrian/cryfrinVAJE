@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_donacija",
+						"type": "uint256"
+					}
+				],
+				"name": "addDonator",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "donatorsList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "donatorAdress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "donacija",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"donacije.sol": "Fundacija"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"donacije.sol": {
+			"keccak256": "0xbd28e94e73b946b5701f77661e1c5184e3cd34fc20ff200e1b0dbf6527f94ac5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8ff74ad59882a977f3495cc0b52d63f2b6c99070a291c0c1b61a877d3cc5637",
+				"dweb:/ipfs/QmXadKndN6Lpkq27Vrfnv5JLFNYitYM6XaQpRq7YukSXpz"
+			]
+		}
+	},
+	"version": 1
+}
